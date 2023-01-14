@@ -1,0 +1,76 @@
+creature_pinniped_mogg
+
+[OBJECT:CREATURE]
+
+Leopard seals were sponsored by the generous contributions of the Bay 12 community.
+
+	heph
+
+[SELECT_CREATURE:LEOPARD_SEAL]
+	[APPLY_CREATURE_VARIATION:CREATURE_EDIT:leopard seal:cow:bull:pup:PINNIPED:X:M:135540:N:phocine]
+	[GO_TO_TAG:NATURAL]
+	[APPLY_CREATURE_VARIATION:PREFSTRINGS:fierce nature:hunting prowess:sleekness:scary smiles]
+	[TRAINABLE_HUNTING]
+
+	
+[SELECT_CREATURE:GIANT_LEOPARD_SEAL]
+	[APPLY_CREATURE_VARIATION:CREATURE_EDIT:giant leopard seal:cow:bull:pup:PINNIPED_EXOTIC:X:M:28048:N:phocine]
+	[GO_TO_TAG:NATURAL]
+	[APPLY_CREATURE_VARIATION:PREFSTRINGS:overwhelmingly fierce nature:gluttonous hunting prowess:disconcerting sleekness:gigantic scary smiles]
+	[TRAINABLE_HUNTING]
+	
+Elephant seals were sponsored by the generous contributions of the Bay 12 community.
+
+	Cruxador
+
+[SELECT_CREATURE:ELEPHANT_SEAL]
+	[APPLY_CREATURE_VARIATION:CUSTOM_DAIRY:PINNIPED:elephant seal:elephantine briny:73170:N]
+	[APPLY_CREATURE_VARIATION:CREATURE_EDIT:elephant seal:cow:bull:pup:X:X:X:X:N:phocine]
+	[GO_TO_TAG:NATURAL]
+	[APPLY_CREATURE_VARIATION:PREFSTRINGS:large floppy noses:great size:intimidating mating calls:large harems]
+	[GO_TO_END]
+	[SELECT_CASTE:ALL]
+	[SELECT_MATERIAL:ALL]
+		[MULTIPLY_VALUE:2]
+		
+[SELECT_CREATURE:GIANT_ELEPHANT_SEAL]
+	[APPLY_CREATURE_VARIATION:CUSTOM_DAIRY:PINNIPED_EXOTIC:elephant seal:elphantine briny:15325:E]
+	[APPLY_CREATURE_VARIATION:CREATURE_EDIT:giant elephant seal:cow:bull:pup:X:X:X:X:N:phocine]
+	[GO_TO_TAG:NATURAL]
+	[APPLY_CREATURE_VARIATION:PREFSTRINGS:gargantuan floppy noses:mind-boggling size:ear shattering mating calls:exceedingly large hareems]
+	[GO_TO_END]
+	[SELECT_CASTE:ALL]
+	[SELECT_MATERIAL:ALL]
+		[MULTIPLY_VALUE:2]
+		
+Harp seals were sponsored by the generous contributions of the Bay 12 community.
+		
+[SELECT_CREATURE:HARP_SEAL]
+	[APPLY_CREATURE_VARIATION:CREATURE_EDIT:harp seal:cow:bull:pup:PINNIPED:X:M:263330:N:phocine]
+	[GO_TO_TAG:NATURAL]
+	[APPLY_CREATURE_VARIATION:PREFSTRINGS:adorable pups:jet black eyes:distinctivelty mottled coats:warbling calls]
+		
+[SELECT_CREATURE:GIANT_HARP_SEAL]
+	[APPLY_CREATURE_VARIATION:CREATURE_EDIT:giant harp seal:cow:bull:pup:PINNIPED_EXOTIC:X:M:58100:N:phocine]
+	[GO_TO_TAG:NATURAL]
+	[APPLY_CREATURE_VARIATION:PREFSTRINGS:large adorable pups:enormous jet black eyes:prodigious mottled coats:loud warbling calls]
+
+[SELECT_CREATURE:WALRUS]
+	[APPLY_CREATURE_VARIATION:CUSTOM_DAIRY:PINNIPED:walrus:briny:50297:N]
+	[APPLY_CREATURE_VARIATION:CREATURE_EDIT:walrus:cow:bull:pup:X:X:X:X:N:phocine]
+	[GO_TO_TAG:NATURAL
+	[APPLY_CREATURE_VARIATION:PREFSTRINGS:tusks:whiskers:avuncular appearance:leisurely basking]
+	[TRAINABLE_WAR]
+	[GO_TO_END]
+	[SELECT_MATERIAL:ALL]
+		[MULTIPLY_VALUE:2]
+		
+[SELECT_CREATURE:GIANT_WALRUS]
+	[APPLY_CREATURE_VARIATION:CUSTOM_DAIRY:PINNIPED_EXOTIC:walrus:briny:10554:E]
+	[APPLY_CREATURE_VARIATION:CREATURE_EDIT:giant walrus:cow:bull:pup:X:X:X:X:N:phocine]
+	[GO_TO_TAG:NATURAL]
+	[APPLY_CREATURE_VARIATION:PREFSTRINGS:prodigious tusks:expansive whiskers:sage appearance:languid basking]
+	[TRAINABLE_WAR]
+	[GO_TO_END]
+	[SELECT_MATERIAL:ALL]
+		[MULTIPLY_VALUE:2]

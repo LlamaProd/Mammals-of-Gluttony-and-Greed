@@ -1,0 +1,8 @@
+language_HUMAN_mogg
+
+[OBJECT:LANGUAGE]
+
+[SELECT_TRANSLATION:HUMAN]
+	[T_WORD:GLUTTONY:kostromep] !! Fat-greed !!
+	[T_WORD:MAMMAL:tunetru]
+	[T_WORD:MILK:thomem]

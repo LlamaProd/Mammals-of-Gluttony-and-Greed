@@ -1,0 +1,8 @@
+language_GOBLIN_mogg
+
+[OBJECT:LANGUAGE]
+
+[SELECT_TRANSLATION:GOBLIN]
+	[T_WORD:GLUTTONY:rusmzeb]
+	[T_WORD:MAMMAL:ozs†kru]
+	[T_WORD:MILK:rusmesp] !! Gluttonwater !!

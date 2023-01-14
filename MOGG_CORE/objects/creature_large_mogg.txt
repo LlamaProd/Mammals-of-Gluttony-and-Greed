@@ -1,0 +1,125 @@
+creature_large_mogg
+
+[OBJECT:CREATURE]
+
+[SELECT_CREATURE:CAMEL_1_HUMP]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:STATE_NAME]
+		[CVCT_TARGET:one-humped camel]
+		[CVCT_REPLACEMENT:dromedary]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:STATE_ADJ]
+		[CVCT_TARGET:one-humped camel]
+		[CVCT_REPLACEMENT:dromedary]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+	[APPLY_CREATURE_VARIATION:CMILK:30574]
+	[APPLY_CREATURE_VARIATION:CREATURE_CNAME:one-humped camel:one-humped camels:one-humped camel:calf:calves:dromedary:dromedaries:cameline]
+	[APPLY_CREATURE_VARIATION:CREATURE_EDIT_X:I:dromedary:dromedaries:cow:cows:bull:bulls:calf:calves:X:X:X:X:X:X]
+	[GO_TO_TAG:NATURAL]
+	[APPLY_CREATURE_VARIATION:PREFSTRINGS:hump:milk:ornery nature:accurate spitting]
+	
+[SELECT_CREATURE:CAMEL_1_HUMP_MAN]
+	[APPLY_CREATURE_VARIATION:CREATURE_CNAME:one-humped camel man:one-humped camel men:one-humped camel man:calf:calves:dromedary man:dromedary men:humanoid cameline]
+	[APPLY_CREATURE_VARIATION:CREATURE_EDIT_X:IM:dromedary man:dromedary men:dromedary woman:dromedary women:X:X:child:children:X:DR:X:X:X:X]
+	[CV_REMOVE_TAG:MILKABLE]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+	
+[SELECT_CREATURE:GIANT_CAMEL_1_HUMP]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:STATE_NAME]
+		[CVCT_TARGET:giant one-humped camel]
+		[CVCT_REPLACEMENT:giant dromedary]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:STATE_ADJ]
+		[CVCT_TARGET:giant one-humped camel]
+		[CVCT_REPLACEMENT:giant dromedary]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+	[APPLY_CREATURE_VARIATION:CREATURE_CNAME:giant one-humped camel:giant one-humped camels:giant one-humped camel:calf:calves:giant dromedary:giant dromedaries:gigantic cameline]
+	[APPLY_CREATURE_VARIATION:CMILK:6362]
+	[APPLY_CREATURE_VARIATION:CREATURE_EDIT_X:I:giant dromedary:giant dromedaries:cow:cows:bull:bulls:calf:calves:X:X:X:X:X:X]
+	[GO_TO_TAG:NATURAL]
+	[APPLY_CREATURE_VARIATION:PREFSTRINGS:mountainous hump:exotic milk:malicious nature:dangerously accurate spitting]
+
+	!! I decided to go for the correct name, even though it references a real-world location, it was either this or find another name for the guineafowl. !!
+[SELECT_CREATURE:CAMEL_2_HUMP]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:STATE_NAME]
+		[CVCT_TARGET:two-humped camel]
+		[CVCT_REPLACEMENT:bactrian camel]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:STATE_ADJ]
+		[CVCT_TARGET:two-humped camel]
+		[CVCT_REPLACEMENT:bactrian camel]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+	[APPLY_CREATURE_VARIATION:CMILK:76435]
+	[APPLY_CREATURE_VARIATION:CREATURE_CNAME:two-humped camel:two-humped camels:two-humped camel:calf:calves:bactrian camel:bactrian camels:cameline]
+	[GO_TO_END]
+	[APPLY_CREATURE_VARIATION:CREATURE_EDIT_X:I:bactrian camel:bactrian camels:cow:cows:bull:bulls:calf:calves:X:X:X:X:X:X]
+	[GO_TO_TAG:NATURAL]
+	[APPLY_CREATURE_VARIATION:PREFSTRINGS:humps:shaggy winter coats:long eyelashes:adaptation to extremes]
+	
+[SELECT_CREATURE:CAMEL_2_HUMP_MAN]
+	[APPLY_CREATURE_VARIATION:CREATURE_CNAME:two-humped camel man:two-humped camel men:two-humped camel man:calf:calves:bactrian camel man:bactrian camel men:humanoid cameline]
+	[APPLY_CREATURE_VARIATION:CREATURE_EDIT_X:IM:bactrian camel man:bactrian camel men:bactrian camel woman:bactrian camel women:X:X:child:children:X:DR:X:X:X:X]
+	[CV_REMOVE_TAG:MILKABLE]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+	
+[SELECT_CREATURE:GIANT_CAMEL_2_HUMP]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:STATE_NAME]
+		[CVCT_TARGET:giant two-humped camel]
+		[CVCT_REPLACEMENT:giant bactrian camel]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:STATE_ADJ]
+		[CVCT_TARGET:giant two-humped camel]
+		[CVCT_REPLACEMENT:giant bactrian camel]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+	[APPLY_CREATURE_VARIATION:CMILK:15905]
+	[APPLY_CREATURE_VARIATION:CREATURE_CNAME:giant two-humped camel:giant two-humped camels:giant two-humped camel:calf:calves:giant bactrian camel:giant bactrian camels:gigantic cameline]
+	[APPLY_CREATURE_VARIATION:CREATURE_EDIT_X:I:giant bactrian camel:giant bactrian camel:cow:cows:bull:bulls:calf:calves:X:X:X:X:X:X]
+	[GO_TO_TAG:NATURAL]
+	[APPLY_CREATURE_VARIATION:PREFSTRINGS:mountainous humps:dishevelled winter coats:protubing eyelashes:apathy to extreme conditions]
+	
+Kangaroos were sponsored by the generous contributions of the Bay 12 community.
+
+	Whittacker: "I just want to see a dwarf get their bowels ripped out by one of these."
+	Sponsored by Duncan Burke
+	
+[SELECT_CREATURE:KANGAROO]
+	[APPLY_CREATURE_VARIATION:CMILK:414889]
+	[APPLY_CREATURE_VARIATION:CREATURE_EDIT:kangaroo:doe:buck:joey:X:X:X:X:X:X]
+	[GO_TO_TAG:NATURAL]
+	[APPLY_CREATURE_VARIATION:PREFSTRINGS:pouches:great leaps:athletic physique:bravado]
+
+[SELECT_CREATURE:KANGAROO_MAN]
+	[APPLY_CREATURE_VARIATION:REMOVE_DAIRY]
+    [CV_REMOVE_TAG:MILKABLE]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+	
+[SELECT_CREATURE:GIANT_KANGAROO]
+	[APPLY_CREATURE_VARIATION:CMILK:76491]
+	[APPLY_CREATURE_VARIATION:CREATURE_EDIT:giant kangaroo:doe:buck:joey:X:X:X:X:X:X]
+	[GO_TO_TAG:NATURAL]
+	[APPLY_CREATURE_VARIATION:PREFSTRINGS:expansive pouches:enourmous leaps:intimidating physique:great bravado]
+	
+Tapirs were sponsored by the generous contributions of the Bay 12 community.
+
+	Samthere - Release the war tapirs!
+	
+	!! I couldn't find any valid adjective or gender names for tapirs unfortunately !!
+[SELECT_CREATURE:TAPIR]
+	[APPLY_CREATURE_VARIATION:CMILK:227951]
+	[APPLY_CREATURE_VARIATION:CREATURE_EDIT_IS:tapir:tapirs:tapir:tapirs:tapir:tapirs:calf:claves:X:X:X:X:X:X]
+	[GO_TO_TAG:NATURAL]
+	[APPLY_CREATURE_VARIATION:PREFSTRINGS:floppy noses:wallowing:calves' dappled coats:crepuscular tendencies]
+
+[SELECT_CREATURE:TAPIR_MAN]
+	[APPLY_CREATURE_VARIATION:REMOVE_DAIRY]
+    [CV_REMOVE_TAG:MILKABLE]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+	
+[SELECT_CREATURE:GIANT_TAPIR]
+	[APPLY_CREATURE_VARIATION:CMILK:45791]
+	[APPLY_CREATURE_VARIATION:CREATURE_EDIT_IS:giant tapir:giant tapirs:giant tapir:giant tapirs:giant tapir:giant tapirs:calf:claves:X:X:X:X:X:X]
+	[GO_TO_TAG:NATURAL]
+	[APPLY_CREATURE_VARIATION:PREFSTRINGS:floppy noses:wallowing:calves' dappled coats:crepuscular tendencies]

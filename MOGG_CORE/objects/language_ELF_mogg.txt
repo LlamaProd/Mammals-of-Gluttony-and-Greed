@@ -1,0 +1,8 @@
+language_ELF_mogg
+
+[OBJECT:LANGUAGE]
+
+[SELECT_TRANSLATION:ELF]
+	[T_WORD:GLUTTONY:l‚wemŠ]
+	[T_WORD:MAMMAL:awemaza] !! Ape-snake !!
+	[T_WORD:MILK:eniwada] !! Life-proliferate !!
