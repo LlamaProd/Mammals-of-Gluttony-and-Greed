@@ -13,12 +13,6 @@ language_words_mogg
 		[ADJ_DIST:1]
 		[FRONT_COMPOUND_ADJ]
 		[REAR_COMPOUND_ADJ]
-		
-[SELECT_WORD:GREED]
-	[ADJ:greedy]
-		[ADJ_DIST:2]
-		[FRONT_COMPOUND_ADJ]
-		[REAR_COMPOUND_ADJ]
 
 [WORD:GLUTTONY]
 	[NOUN:gluttony:gluttonies]
@@ -30,6 +24,11 @@ language_words_mogg
 		[REAR_COMPOUND_NOUN_PLUR]
 		[THE_NOUN_PLUR]
 		[OF_NOUN_PLUR]
+		
+[SELECT_WORD:GREED]
+	[ADJ:greedy]
+		[ADJ_DIST:2]
+		[FRONT_COMPOUND_ADJ]
 		
 [WORD:MAMMAL]
 	[NOUN:mammal:mammals]
