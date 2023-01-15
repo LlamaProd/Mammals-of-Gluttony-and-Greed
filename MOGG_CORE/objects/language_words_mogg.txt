@@ -13,6 +13,12 @@ language_words_mogg
 		[ADJ_DIST:1]
 		[FRONT_COMPOUND_ADJ]
 		[REAR_COMPOUND_ADJ]
+		
+[SELECT_WORD:GREED]
+	[ADJ:greedy]
+		[ADJ_DIST:2]
+		[FRONT_COMPOUND_ADJ]
+		[REAR_COMPOUND_ADJ]
 
 [WORD:GLUTTONY]
 	[NOUN:gluttony:gluttonies]

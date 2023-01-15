@@ -7,8 +7,8 @@
 [STEAM_TAG:tweak]
 [STEAM_KEY_VALUE_TAG:animal:animals:cheese:creature:creatures:domestic:domesticated:milk:pet:pets]
 
-[NUMERIC_VERSION:0106]
-[DISPLAYED_VERSION:1.06]
+[NUMERIC_VERSION:0107]
+[DISPLAYED_VERSION:1.07]
 [EARLIEST_COMPATIBLE_NUMERIC_VERSION:0100]
 [EARLIEST_COMPATIBLE_DISPLAYED_VERSION:1.00]
 [AUTHOR:Llamageddon]
@@ -22,6 +22,6 @@ As for non-bug related changes, all creatures now have accurate names for their 
 Finally I also added the words, "mammals", "gluttony", "milk/milky" and "cheesy" into the game's language files for all main civilisations. This is probably the most arbitrary change to vanilla DF but other than this I have tried to keep this core module as vanilla as possible. The reason this is "MOGG - Core" is because I have completely rewritten my old mods of the same name and redesigned them in this manner to be as modular, compatible and easily updated as possible based on what I have learned about modding DF so far. 
 
 MOGG core should be fine for anyone who would just like the bug fixes mentioned above with as little interference with vanilla DF as possible but is really the foundation for my MOGG - Dairy update, which changes a lot of things that might clash with the purity of vanilla DF. I hope you enjoy whatever combinations of my mods you choose to use. I have already failed at brevity in my description but I will post some more detailed technical info in the steam mod discussions/forums for anyone who might be interested.
-[STEAM_CHANGELOG:Fix - For MOGG - Dairy. Core users can disregard.]
+[STEAM_CHANGELOG:Small update - Added the adjective "greedy" to df languages.]
 
 [STEAM_FILE_ID:2916040856]
