@@ -1,8 +1,0 @@
-tile_page_items_dairy
-
-[OBJECT:TILE_PAGE]
-
-[TILE_PAGE:ITEMS_CHEESE_DAIRY]
-	[FILE:images/items_cheese_dairy.png]
-	[TILE_DIM:32:32]
-	[PAGE_DIM_PIXELS:96:64]
